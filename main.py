@@ -47,3 +47,13 @@ def predict_emotion(img):
     
     return {emotion_catagories[i]: float(predictions[i]) for i in range(len(emotion_catagories))}
 
+iface = gr.Interface(
+    fn=predict_emotion,
+    inputs=gr.Image(type="numpy"),
+    outputs=gr.Label(num_top_classes=3),
+    title="Facial Emotion Recognition",
+    description="Upload a face image and the model will predict the emotion"
+)
+
+if __name__ == "__main__":
+    iface.launch()
