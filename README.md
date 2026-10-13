@@ -31,8 +31,8 @@ git clone https://github.com/justRaam-exe/emotion-face-recognition.git
 ```
 
 - Download Dataset dan model
-[Kaggle](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25)
-[google drive](https://drive.google.com/drive/folders/1fawjtIIxCBRv8H-JiBYYg88DraSdq3Sb?usp=sharing)
+\n[Kaggle](https://www.kaggle.com/datasets/shaikhborhanuddin/fer-25)
+\n[google drive](https://drive.google.com/drive/folders/1fawjtIIxCBRv8H-JiBYYg88DraSdq3Sb?usp=sharing)
 
 - Gunakan Virtual Environment (```venv```)
 ```bash
